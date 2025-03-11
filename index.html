@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barriecito&family=Chicle&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <link rel="manifest" href="manifest.json">
+    <title>Caffeine Intake Tracker</title>
+</head>
+<body class="flex-center">
+    <main class="flex-column">
+        <header class="flex-center">
+            <img src="img/cat-img.png" class="img-header" alt="Minimalist and funny illustration of a jittery cat with wide eyes, looking overly alert."/>
+            <h1 >Caffeine Intake Tracker</h1>
+        </header>  
+        <section class="beverage-section">
+                <label for="input-coffee" class=" text-size">Coffee ☕</label>
+                <section>
+                    <button id="add-coffee" class=" text-size" aria-label="Add one cup of coffee">+</button>
+                    <input value="0" id="input-coffee" name="input-coffee"class=" text-size" >
+                    <button id="subtract-coffee"  class=" text-size" aria-label="Remove one cup of coffee">-</button>
+                </section>
+        </section>
+        <section class="beverage-section">
+                <label for="input-tea" class=" text-size">Tea 🍵</label>
+                <section>
+                    <button id="add-tea" class=" text-size" aria-label="Add one cup of tea">+</button>
+                    <input value="0" id="input-tea" name="input-tea"class=" text-size">
+                    <button id="subtract-tea" class=" text-size" aria-label="Remove one cup of tea">-</button>
+                </section>
+        </section>
+        <section id="warning-section" class="warning-section flex-column">
+        </section>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>

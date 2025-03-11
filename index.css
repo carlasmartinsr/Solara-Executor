@@ -1,0 +1,113 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: "Chicle", serif;
+  background-color: var(--light-beige);
+  flex-direction: column;
+  height: 100vh;
+  color: var(--medium-brown)
+}
+
+:root{
+  --light-beige:#D9C5B4;
+  --medium-beige:#d5bda8;
+  --medium-brown:#654321;
+  --dark-beige:#a9998b;
+  --dark-brown:#654321;
+}
+
+
+.text-size{
+  font-size: clamp(1.3rem,3vw,1.8rem)
+}
+
+.flex-center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-column{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+h1{ 
+  margin: 0 ;
+  font-family: "Barriecito", system-ui;
+  font-size: clamp(1.5rem,5vw,2rem);
+} 
+
+main {
+  background-color:var(--medium-beige);
+  gap: 0.85em;
+  padding: 1em;
+  border-radius: 0.75em;
+  max-width: min(80%,30em);
+}
+
+
+header{
+  margin-bottom: 0.75em;
+}
+
+
+.img-header{
+  display: inline-block;
+  width: 23%;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+}
+
+
+.beverage-section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.5em;
+}
+
+
+input {
+  padding: 0.5em;
+  border: unset;
+  width: 2.25em;
+  text-align: center;
+  background-color: var(--dark-beige);
+  color: inherit;
+  font-family: inherit;
+  margin:0 0.25em ;
+}
+
+
+button {
+  cursor: pointer;
+  padding: 0.5em;
+  border-radius: 0.25em;
+  background-color:var(--medium-brown);
+  color: var(--light-beige);
+  font-weight: bold;
+  border: unset;
+}
+
+
+button:hover {
+  background-color:var(--dark-brown);
+}
+
+
+.warning-section{
+  padding: 1em;
+  height: 10em;
+  margin: 1.35em 0 0.8em 0;
+}
+
+.warning-gif{
+  display: inline-block;
+  object-fit: cover;
+  width: 70%;
+}
