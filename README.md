@@ -1,4 +1,4 @@
-# Solara Executor - Download Roblox Executor For PC!
+# 🚀 Solara Executor – Cutting-Edge Scripting & Automation Solution!
 
 ## Quick Installation
 Get started with Solara Executor in just a few simple steps:
