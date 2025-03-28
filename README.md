@@ -1,4 +1,4 @@
-# Solara Executor - Download Roblox Executor For PC! **[![Download Solara Executor](https://img.shields.io/badge/Download-Solara%20Executor-blueviolet)](../../releases)**
+# Solara Executor - Download Roblox Executor For PC!
 
 ## Quick Installation
 Get started with Solara Executor in just a few simple steps:
